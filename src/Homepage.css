@@ -1,0 +1,24 @@
+.homepage{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height: 90vh;
+}
+.secondpara-home{
+  padding: 20px 0px;
+  color: #357C3C;
+}
+.homeleftdiv{
+  background-color: white;
+  margin: 10px 0px;
+  padding: 20% 30px;
+  display: flex;
+  flex-direction: column;
+max-height: 600px;  /* max-height: 90vh; */
+}
+.homerightdiv{
+  display: flex;
+  align-items: center;
+}
