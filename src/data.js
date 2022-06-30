@@ -9,7 +9,7 @@ const travels = [
     id: 2,
     name: "Spain",
     img: "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "A relaxing trip to the best tropical locations",
+    desc: "Spain is a vibrant land of world-class cities, renowned masterpieces, divine food and wine, swirling Flamenco dancers and exhilarating outdoor activities.",
   },
   {
     id: 3,
