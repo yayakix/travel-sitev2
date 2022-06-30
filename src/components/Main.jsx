@@ -1,4 +1,13 @@
+import travels from "../data";
+
 function Main() {
+  const data = travels.map((x) => {
+    return <div className="grid-item">
+    <h3>{x.name}</h3>
+    <img src={x.img} alt='destination'/>
+    <p>{x.desc}</p>
+    </div>;
+  })
   return (
     <div className="mainpage">
       <img
@@ -13,12 +22,7 @@ function Main() {
       </div>
 
       <div className="grid-container">
-        <div className="grid-item">a trip here</div>
-        <div className="grid-item">a trip here</div>
-        <div className="grid-item">a trip here</div>
-        <div className="grid-item">a trip here</div>
-        <div className="grid-item">a trip here</div>
-        <div className="grid-item">a trip here</div>
+        {data}
       </div>
     </div>
   );
