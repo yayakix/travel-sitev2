@@ -17,11 +17,11 @@ function Main() {
       <div className="logopage">
         <h1>Where do you want to go?</h1>
         <button className="button-30" role="button">
-          Book it
+          <a href="#down">Book it</a>
         </button>
       </div>
-
-      <div className="grid-container">
+      <h2 className="tripname">Trips</h2>
+      <div id="down" className="grid-container">
         {data}
       </div>
     </div>
